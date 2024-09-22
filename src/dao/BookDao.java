@@ -19,4 +19,7 @@ public interface BookDao {
      Books showBookById(int empId) throws SQLException;
 
 	void displayBooks(String orderBy);
+	
+	
+	// it is the interface and the bookdaoimpl is define these interface
 }
